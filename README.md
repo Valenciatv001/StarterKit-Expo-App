@@ -35,16 +35,80 @@ npm run reset-project
 
 This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+## 📌 Mahdumo Enterprise LTD Project Scope
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📍 Project Overview:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- Mahdumo is a comprehensive learning management software designed to provide all-in-one educational resources..
 
-## Join the community
+## 📍 Technical Stack:
 
-Join our community of developers creating universal apps.
+| SN  | Stack         |
+| --- | ------------- |
+| 1   | React Native  |
+| 2   | TypeScript    |
+| 3   | StyleSheet    |
+| 4   | Cloud Storage |
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📍 API Design:
+
+- RESTful
+- JSON data format
+
+## 📍 User Interface (UI/UX):
+
+- Figma
+
+## 📍 Collaboration and Version Control / Mono Merger:
+
+| SN  | Rule                                                                                                                                       |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1   | Git version control system for tracking changes.                                                                                           |
+| 2   | ⚠️ Developers are to create task-specific branches using their name as a prefix (e.g., lucky-admin-auth-model).                            |
+| 3   | ⚠️ The main branch is reserved for production-ready code, with all development updates merged into the dev branch .                        |
+| 4   | ⚠️ Developers must request code reviews and merging from the designated merger [Leke](https://github.com/Leyksnal) after completing tasks. |
+| 5   | ⚠️ Strict adherence to this process ensures code quality and consistency.                                                                  |
+| 6   | ⚠️ Tasks carried out outside this defined scope will be removed or left unattended to maintain project assurance.                          |
+
+## 📍 Testing Strategy:
+
+- Our testing strategy will be introduced post the initial release (version 0.0.1) of the project.
+
+## 📍 Deployment and Scaling:
+
+- Containerization to package and deploy the application.
+- Automate and manage auto-scaling.
+
+## 📍 API documentation:
+
+- Swagger API documentation will be introduced post the initial release (version 0.0.1) of the project.
+
+## 📍 Project Management:
+
+| SN  | Scope                           | Tool  |
+| --- | ------------------------------- | ----- |
+| 1   | Task Tracking                   | Jira  |
+| 2   | Collaboration and Visualization | Miro  |
+| 3   | Communication                   | Slack |
+
+## 📍 Libraries:
+
+| SN  | Scope                  | Tool                                                                               |
+| --- | ---------------------- | ---------------------------------------------------------------------------------- |
+| 1   | State Management       | [Redux](https://redux.js.org/)                                                     |
+| 2   | API Data Handling      | [Axios](https://axios-http.com/docs/intro)                                         |
+| 3   | Data Validation        | [Zod](https://zod.dev/)                                                            |
+| 4   | Styling Frameworks     | [StyleSheet](https://reactnative.dev/docs/stylesheet)                              |
+| 5   | UI Building/Components | [expo router sdk52 new architecture](https://expo.dev/changelog/2024/11-12-sdk-52) |
+
+## 📍 Code Consistency and Automation:
+
+| SN  | Scope           | Tool                                                 |
+| --- | --------------- | ---------------------------------------------------- |
+| 1   | Linter          | [Eslint](https://eslint.org/)                        |
+| 2   | Formatter       | [Prettier](https://prettier.io/docs/en/install.html) |
+| 3   | Pre-commit Hook | [Husky](https://typicode.github.io/husky/)           |
+
+⚠️ - A pre-commit hook has been implemented, running ESLint and Prettier to catch and address code consistency issues before code is pushed.
+
+⚠️ - No team member is allowed to modify or touch files related to these automation tools to preserve their integrity and effectiveness.
